@@ -1,0 +1,104 @@
+.form-control-2 {
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1px; }
+
+.form-control-12 {
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px; }
+
+.form-group-pag2 {
+  padding-left: 18px; }
+
+.btn-primary21 {
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "fantasy";
+  font-weight: 400;
+  color: white;
+  background-image: linear-gradient(#38cf38, #21ca0a);
+  border: none;
+  z-index: 1;
+  border-radius: 5px; }
+  .btn-primary21:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(#0a830a, #21ca0a);
+    transition: width 250ms;
+    z-index: -1;
+    border-radius: 10px; }
+  .btn-primary21:hover {
+    color: white; }
+    .btn-primary21:hover:before {
+      width: 100%; }
+
+.labelpage1 {
+  color: #463831;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.ppage2 {
+  display: flex;
+  text-align: left;
+  height: 70%;
+  width: 100%;
+  color: #463831;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.fieldsetpage2 {
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; }
+
+.pmodalpage2 {
+  text-align: justify;
+  color: #463831;
+  font-family: sans-serif;
+  font-size: 15px;
+  height: 100%;
+  width: 100%; }
+
+.legendpage2 {
+  font-family: "fantasy";
+  font-size: 20px;
+  text-align: center; }
+
+.h2page2 {
+  text-align: center;
+  color: darkslategray;
+  margin-bottom: 20px; }
+
+.fa fa-spinner fa-pulse fa-3x fa-fw {
+  justify-content: center; }
+
+.setheader {
+  padding-left: 190px;
+  padding-bottom: 10px; }
+
+.wrapperpage2 {
+  padding: 10px;
+  margin: 10px; }

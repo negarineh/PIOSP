@@ -1,0 +1,109 @@
+// Variables
+$color-bg: white;
+$color-main: #333;
+$color-hover: lighten(#0275d8, 1%);
+$padding: 20px;
+$radius: 5px;
+$accent-color: #dfcfad; 
+$font-family: 'fantasy';
+$font-size:20px;
+
+// Mixins
+@mixin transition($prop: all, $duration: 0.3s, $timing: ease-in-out) {
+  transition: $prop $duration $timing;
+}
+ 
+  .mainpage-permission {  
+    // background : url('/Image/bird-bees.gif') no-repeat center center ;  
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    padding-bottom: 40px;
+    }  
+  
+  .wrappermainpage-permission {      
+    // margin: 50px; //
+    margin:50px auto 0;
+    font-size: 20px;
+    // text-align: center;
+    // width: 1250px; //
+    // height: 550px;
+    width: 85%;
+    height: auto;//
+    border-radius: $radius;
+  //   background: transparent;
+    box-shadow: 0 15px 35px rgba(31, 31, 97, 0.493), 0 5px 15px rgba(0, 0, 0, 0.514);
+    // padding: $padding;
+    background-color: white;
+    opacity:0.7;
+  //     filter:alpha(opacity=40);
+  //   background: yellow;
+  //   color: white;
+    // min-height: 100%;//
+    // min-width: 1024px;//
+    top: 0px;//
+    // bottom: 0px;//
+    // right: 0px;//
+    left: 0px;//
+    display: block;
+    position: relative;//
+    
+    }  
+  
+    .pwelcome1{
+        display: flex;
+        align-items: center ;
+      //   justify-content: center;
+        // position: absolute;
+        height: 100%; 
+        width: 100%;
+        color: rgb(70, 56, 49);
+        padding-bottom: $padding;
+        line-height: 1.5;
+        font-family: $font-family;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+      }
+
+      .pwelcome3{
+        display: flex;
+        align-items: center ;
+      //   justify-content: center;
+        // position: absolute;
+        height: 100%; 
+        width: 100%;
+        color: rgb(70, 56, 49);
+        padding-bottom: $padding;
+        line-height: 1.5;
+        font-family: $font-family;
+        font-size: $font-size;
+      }
+
+      .pwelcome2{
+        display: flex;
+        align-items: center ;
+      //   justify-content: center;
+        // position: absolute;
+        height: 100%; 
+        width: 100%;
+        color: rgb(70, 56, 49);
+        padding-bottom: $padding;
+        line-height: 1.5;
+        font-family: $font-family;
+        font-size: $font-size;
+        text-align: center;
+        justify-content: center;
+      }
+      
+      .fieldsetwelcome1{
+        text-align: left;
+        padding: $padding; 
+        padding-bottom: 20px; 
+        margin-top: $padding;  
+        margin-left: $padding;
+        margin-right: $padding;
+        margin-bottom: $padding;
+        border-radius: $radius; 
+      }

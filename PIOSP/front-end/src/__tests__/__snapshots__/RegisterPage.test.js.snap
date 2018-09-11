@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register Page component render() should render the component 1`] = `
+<Connect(RegisterPage)
+  dispatch={[Function]}
+  handleChange={[Function]}
+  handleSubmit={[Function]}
+  user={Object {}}
+/>
+`;

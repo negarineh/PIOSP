@@ -1,0 +1,57 @@
+.form-control-1 {
+  margin-bottom: 20px; }
+
+.btn-primary1 {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: "fantasy";
+  font-weight: 400;
+  color: white;
+  background-color: #4e524c;
+  border: none;
+  z-index: 1;
+  border-radius: 10px; }
+  .btn-primary1:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #e74c3c;
+    transition: width 250ms;
+    z-index: -1;
+    border-radius: 10px; }
+  .btn-primary1:hover {
+    color: white; }
+    .btn-primary1:hover:before {
+      width: 100%; }
+
+.ppage1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #463831;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-family: "fantasy";
+  font-size: 20px; }
+
+.fieldsetpage1 {
+  text-align: justify;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; }
+
+.legendpage1 {
+  font-family: "fantasy";
+  font-size: 20px; }

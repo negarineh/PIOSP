@@ -1,0 +1,182 @@
+// Variables
+$color-bg: white;
+$color-main: #333;
+$color-hover: lighten(#0275d8, 1%);
+$padding: 20px;
+$radius: 10px;
+$accent-color: #dfcfad; 
+$font-size:20px;
+$font-family: 'fantasy';
+$background-color: rgb(78, 82, 76);
+$background-color-after: #e74c3c;
+
+// Mixins
+@mixin transition($prop: all, $duration: 0.3s, $timing: ease-in-out) {
+  transition: $prop $duration $timing;
+}
+ 
+
+// html {
+//   box-sizing: border-box;
+//     // background: url(http://enacademic.com/pictures/enwiki/69/European_honey_bee_extracts_nectar.jpg) no-repeat center center fixed; 
+//     // -webkit-background-size: cover;
+//     // -moz-background-size: cover;
+//     // -o-background-size: cover;
+//     // background-size: cover;
+// }
+// *,
+// *:after,
+// *:before {
+//   box-sizing: border-box;
+// } 
+// body {
+//   font-family: "Roboto", sans-serif; 
+//   // background-image: url("../Images/honeybee.jpg") no-repeat center ;/*/ cover*/
+//   display: flex;
+//   // align-items: center;
+//   // justify-content: center;
+//   // position: absolute;
+//   height: 100%; 
+//   width: 100%;
+//   background-color: white ;
+//   // border-radius: $radius;
+// }
+// .react-form { 
+//   width: 300px;
+//   border-radius: $radius;
+//   background: transparent;
+//   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+//   padding: $padding;
+//   text-align: center;
+// }
+// h1 {
+//   color: $color-main;
+//   font-size: 30px;
+//   margin-top: 0;
+//   text-align: center; 
+//   font-family: 'fantasy';
+// }
+ 
+.form-control-1 { 
+//   border: none;
+//   border-bottom: 1px solid $color-main;
+//   background: none;
+//   width: 100%;
+//   font-size: 18px;
+//   font-weight: bold;
+//   line-height: 1.2;
+//   outline: none;
+//   text-align: right;
+//   border-radius: $radius;
+//   vertical-align: bottom;
+//   position: relative;
+//   // float: left;
+//   // *overflow: hidden;
+	margin-bottom: $padding;
+}
+// .btn:hover {
+//   background: $color-hover;
+//   border-color: $color-hover;
+// }
+   
+// .wrapperpage1 {      
+//   margin: 50px;
+//   font-size: 20px;
+//   // text-align: center;
+//   width: 1200px; 
+//   height: 550px;
+//   border-radius: $radius;
+//   background: transparent;
+//   box-shadow: 0 15px 35px rgba(28, 28, 204, 0.1), 0 5px 15px rgba(0, 0, 0, 0.514);
+//   // padding: $padding;
+//   background-color: white;
+//   }  
+
+.btn-primary1{
+			position: relative;
+			display: block;
+			margin: 30px auto 0;
+			padding: 10px 30px;
+			font-size: $font-size;
+			font-family: $font-family;
+			font-weight: 400;
+			color: white;
+			background-color: $background-color;
+			border: none;
+			z-index: 1;
+			border-radius: $radius;
+			&:before {
+				position: absolute;
+				content: '';
+				top: 0;
+				left: 0;
+				width: 0;
+				height: 100%;
+				background-color: $background-color-after;
+				transition: width 250ms;
+				z-index: -1;
+				border-radius: $radius;
+			}
+			
+			&:hover {
+				color: white;
+				
+				&:before {
+					width: 100%;
+				}
+			}
+  }
+
+// .labelpage1{
+//   color: rgb(70, 56, 49);
+//   // background: $accent-color;
+//   font-family: $font-family;
+//   font-size: $font-size; 
+// //   display: block; 
+// }
+ 
+.ppage1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: absolute;
+  height: 100%; 
+  width: 100%;
+  color: rgb(70, 56, 49);
+  padding-bottom: $padding;
+  line-height: 1.5;
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+.fieldsetpage1{
+  text-align: justify;
+  padding: $padding; 
+  padding-bottom: 20px; 
+  margin-top: $padding;  
+  margin-left: $padding;
+  margin-right: $padding;
+  margin-bottom: $padding;
+  border-radius: $radius; 
+}
+
+.legendpage1{
+	// padding-top: 10px;
+	font-family: $font-family;
+	font-size: $font-size;
+}
+
+// .wrapper1.input{
+//   align-self: auto;
+//   float: left;
+// }
+// .wrapper1.label{
+//   text-align: right;
+//   float: left;
+// }
+
+// .form-group{
+//   padding: 5px 5px 5px 5px;
+//   left: 60px;
+//   position: absolute;
+// }

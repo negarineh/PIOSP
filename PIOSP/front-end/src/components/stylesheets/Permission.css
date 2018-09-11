@@ -1,0 +1,63 @@
+.mainpage-permission {
+  padding-bottom: 40px; }
+
+.wrappermainpage-permission {
+  margin: 50px auto 0;
+  font-size: 20px;
+  width: 85%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(31, 31, 97, 0.493), 0 5px 15px rgba(0, 0, 0, 0.514);
+  background-color: white;
+  opacity: 0.7;
+  top: 0px;
+  left: 0px;
+  display: block;
+  position: relative; }
+
+.pwelcome1 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #463831;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-family: "fantasy";
+  font-size: 30px;
+  text-align: center;
+  justify-content: center; }
+
+.pwelcome3 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #463831;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-family: "fantasy";
+  font-size: 20px; }
+
+.pwelcome2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #463831;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-family: "fantasy";
+  font-size: 20px;
+  text-align: center;
+  justify-content: center; }
+
+.fieldsetwelcome1 {
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px; }

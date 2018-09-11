@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Participant SignUp Pending Page component render() should render the component 1`] = `
+<div
+  className="mainpage"
+>
+  <div
+    className="wrappermainpage"
+  >
+    <div
+      style={
+        Object {
+          "margin": "40px",
+          "textAlign": "center",
+        }
+      }
+    >
+      <h2
+        className="pheader"
+      >
+        Just one more step
+        <br />
+      </h2>
+      <p>
+        Prove that you are not a robot to get your access to survey
+        <br />
+      </p>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "40px",
+          "textAlign": "center",
+        }
+      }
+    >
+      <StepGroup
+        size="large"
+      >
+        <Step
+          completed={true}
+        >
+          <Icon
+            as="i"
+            name="mail outline"
+          />
+          <StepTitle>
+            Step 1
+          </StepTitle>
+          <StepContent>
+            <p>
+              Compeletd
+            </p>
+          </StepContent>
+        </Step>
+        <Step
+          active={true}
+        >
+          <Icon
+            as="i"
+            name="mail outline"
+          />
+          <StepTitle
+            style={
+              Object {
+                "marginTop": "20px",
+              }
+            }
+          >
+            Step 2
+          </StepTitle>
+          <StepContent>
+            <p>
+              <br />
+              Go to your 
+            </p>
+            <p>
+              inbox and click  
+            </p>
+            <p>
+              the confirmation 
+            </p>
+            <p>
+              email we just
+            </p>
+            <p>
+              sent you
+            </p>
+          </StepContent>
+        </Step>
+        <Step>
+          <Icon
+            as="i"
+            name="file text"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          />
+          <StepTitle>
+            Step 3
+          </StepTitle>
+          <StepContent>
+            <p>
+              You'll 
+            </p>
+            <p>
+              get access 
+            </p>
+            <p>
+              to survey 
+            </p>
+          </StepContent>
+        </Step>
+      </StepGroup>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Oranienbaum';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Oranienbaum.woff") format("woff"); }
+
+.form-control {
+  margin-bottom: 5px; }
+
+.btn-primary2 {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: "fantasy";
+  font-weight: 400;
+  color: white;
+  background-color: olivedrab;
+  background-color: linear-gradient(#20d31a, #8ac208);
+  border: none;
+  z-index: 1;
+  border-radius: 5px; }
+  .btn-primary2:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(#0a830a, #21ca0a);
+    transition: width 250ms;
+    z-index: -1;
+    border-radius: 5px; }
+  .btn-primary2:hover {
+    color: white;
+    border-radius: 5px; }
+    .btn-primary2:hover:before {
+      width: 100%; }
+
+.pwelcome {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #463831;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center; }
+
+.fieldsetwelcome {
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; }
+
+.wrapperWelcome {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center; }
+
+.btn-table {
+  position: relative;
+  display: block;
+  margin: 5px;
+  font-size: 20px;
+  font-family: "fantasy";
+  font-weight: 100;
+  color: white;
+  background-color: #0487d3;
+  background-image: linear-gradient(#3991f5, #64c6ec);
+  border: none;
+  z-index: 1;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px; }
+  .btn-table:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(#1a5bd3, #04aad3);
+    transition: width 250ms;
+    z-index: -1;
+    border-radius: 5px; }
+  .btn-table:hover {
+    color: white;
+    border-radius: 5px; }
+    .btn-table:hover:before {
+      width: 100%; }
+
+.pheader {
+  font-family: 'Oranienbaum'; }

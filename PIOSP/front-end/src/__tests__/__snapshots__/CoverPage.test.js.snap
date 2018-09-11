@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cover Page Component render() Should render the component 1`] = `
+<div>
+  <Segment
+    style={
+      Object {
+        "background": "whitesmoke",
+        "height": "638.5px",
+      }
+    }
+  >
+    <Grid
+      centered={true}
+      columns={3}
+      container={true}
+    >
+      <GridColumn>
+        <Card>
+          <Label
+            as="a"
+            corner="left"
+            style={
+              Object {
+                "color": "rgb(254,158,26",
+              }
+            }
+          />
+          <CardContent>
+            <CardHeader
+              style={
+                Object {
+                  "paddingLeft": "20px",
+                }
+              }
+            >
+              Admin Tables
+            </CardHeader>
+            <Divider
+              horizontal={true}
+            />
+            <Image
+              as="img"
+              centered={true}
+              rounded={true}
+              size="small"
+              src="/img/table.jpg"
+              ui={true}
+            />
+            <Divider
+              horizontal={true}
+            />
+          </CardContent>
+          <CardContent>
+            <Menu
+              secondary={true}
+              size="tiny"
+            >
+              <MenuItem
+                name="admin"
+                onClick={[Function]}
+              >
+                <Icon
+                  as="i"
+                  color="black"
+                  name="file text"
+                />
+                Details
+              </MenuItem>
+            </Menu>
+          </CardContent>
+        </Card>
+      </GridColumn>
+      <GridColumn>
+        <Card>
+          <Label
+            as="a"
+            corner="left"
+            style={
+              Object {
+                "color": "rgb(92,179,96)",
+              }
+            }
+          />
+          <CardContent>
+            <CardHeader
+              style={
+                Object {
+                  "paddingLeft": "20px",
+                }
+              }
+            >
+              Graphs
+            </CardHeader>
+            <Divider
+              horizontal={true}
+            />
+            <Image
+              as="img"
+              rounded={true}
+              size="small"
+              src="/img/images.jpeg"
+              ui={true}
+            />
+            <Divider
+              horizontal={true}
+            />
+          </CardContent>
+          <CardContent>
+            <Menu
+              secondary={true}
+              size="tiny"
+            >
+              <MenuItem
+                name="visulize"
+                onClick={[Function]}
+              >
+                <Icon
+                  as="i"
+                  color="black"
+                  name="file text"
+                />
+                Details
+              </MenuItem>
+            </Menu>
+          </CardContent>
+        </Card>
+      </GridColumn>
+      <GridColumn>
+        <Card>
+          <Label
+            as="a"
+            corner="left"
+            style={
+              Object {
+                "color": "rgb(238,79,76)",
+              }
+            }
+          />
+          <CardContent>
+            <CardHeader
+              style={
+                Object {
+                  "paddingLeft": "20px",
+                }
+              }
+            >
+              Reports
+            </CardHeader>
+            <Divider
+              horizontal={true}
+            />
+            <Image
+              as="img"
+              rounded={true}
+              size="small"
+              src="/img/Report.jpg"
+              ui={true}
+            />
+            <Divider
+              horizontal={true}
+            />
+          </CardContent>
+          <CardContent>
+            <Menu
+              secondary={true}
+              size="tiny"
+            >
+              <MenuItem
+                name="report"
+                onClick={[Function]}
+              >
+                <Icon
+                  as="i"
+                  color="black"
+                  name="file text"
+                />
+                Details
+              </MenuItem>
+            </Menu>
+          </CardContent>
+        </Card>
+      </GridColumn>
+      <GridRow
+        centered={true}
+        columns={3}
+      >
+        <GridColumn>
+          <Card>
+            <Label
+              as="a"
+              corner="left"
+              style={
+                Object {
+                  "color": "rgb(146,41,173)",
+                }
+              }
+            />
+            <CardContent>
+              <CardHeader
+                style={
+                  Object {
+                    "paddingLeft": "20px",
+                  }
+                }
+              >
+                Query on Reports
+              </CardHeader>
+              <Divider
+                horizontal={true}
+              />
+              <Image
+                as="img"
+                rounded={true}
+                size="small"
+                src="/img/Reports.jpg"
+                ui={true}
+              />
+              <Divider
+                horizontal={true}
+              />
+            </CardContent>
+            <CardContent>
+              <Menu
+                secondary={true}
+                size="tiny"
+              >
+                <MenuItem
+                  name="query"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    as="i"
+                    color="black"
+                    name="file text"
+                  />
+                  Details
+                </MenuItem>
+              </Menu>
+            </CardContent>
+          </Card>
+        </GridColumn>
+        <GridColumn>
+          <Card>
+            <Label
+              as="a"
+              corner="left"
+              style={
+                Object {
+                  "color": "rgb(24,189,209)",
+                }
+              }
+            />
+            <CardContent>
+              <CardHeader
+                style={
+                  Object {
+                    "paddingLeft": "20px",
+                  }
+                }
+              >
+                Register New Admin
+              </CardHeader>
+              <Divider
+                horizontal={true}
+              />
+              <Image
+                as="img"
+                rounded={true}
+                size="small"
+                src="/img/Register.jpg"
+                ui={true}
+              />
+              <Divider
+                horizontal={true}
+              />
+            </CardContent>
+            <CardContent>
+              <Menu
+                secondary={true}
+                size="tiny"
+              >
+                <MenuItem
+                  name="register"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    as="i"
+                    color="black"
+                    name="file text"
+                  />
+                  Details
+                </MenuItem>
+              </Menu>
+            </CardContent>
+          </Card>
+        </GridColumn>
+      </GridRow>
+    </Grid>
+  </Segment>
+</div>
+`;

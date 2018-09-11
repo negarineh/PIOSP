@@ -1,0 +1,297 @@
+// Variables
+$color-bg: white;
+$color-main: #333;
+$color-hover: lighten(#0275d8, 1%);
+$padding: 20px;
+$radius: 5px;
+$accent-color: #dfcfad; 
+
+// Mixins
+@mixin transition($prop: all, $duration: 0.3s, $timing: ease-in-out) {
+  transition: $prop $duration $timing;
+}
+ 
+// html {
+//   box-sizing: border-box;
+//     background: url(http://enacademic.com/pictures/enwiki/69/European_honey_bee_extracts_nectar.jpg) no-repeat center center fixed; 
+//     // -webkit-background-size: cover;
+//     // -moz-background-size: cover;
+//     // -o-background-size: cover;
+//     // background-size: cover;
+// }
+// *,
+// *:after,
+// *:before {
+//   box-sizing: border-box;
+// } 
+// body {
+//   font-family: "Roboto", sans-serif; 
+//   background-image: url("/Image/factors-affecting-bee-health_721x366.png") no-repeat center ;/*/ cover*/
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   position: absolute;
+//   height: 100%; 
+//   width: 100%;
+// //   background-color: white ;
+//   border-radius: $radius;
+// }
+
+   
+.wrappermainpage {      
+  // margin: 50px; //
+  margin:20px auto ;//50px auto 50px
+  // margin: auto;
+  font-size: 20px;
+  // text-align: center;
+  // width: 1250px; //
+  // height: 550px;
+  width: 85%;
+  height: auto;//
+  border-radius: 15px;
+//   background: transparent;
+  box-shadow: 0 15px 35px rgba(75, 80, 77, 0.897), 0 5px 15px rgba(18, 19, 18, 0.781);
+  // padding: $padding;
+  background-color: beige;
+//   opacity:0.7;
+//     filter:alpha(opacity=40);
+//   background: yellow;
+//   color: white;
+  // min-height: 100%;//
+  // min-width: 1024px;//
+  top: 0px;//
+  // bottom: 0px;//
+  // right: 0px;//
+  left: 0px;//
+  display: block;
+  position: relative;//
+  
+  // border-width: 20px  ;
+    border-style: hidden;
+    // border-color: darkCyan;
+     background-color:rgb(251, 255, 253);
+
+  text-align: left;
+  padding: $padding; 
+  padding-bottom: 20px;
+  // margin-top: $padding;  
+  // margin-left: $padding;
+  // margin-right: $padding;
+  // margin-bottom: $padding;
+  overflow: auto;
+  }  
+
+
+//   img.bg {
+//     /* Set rules to fill background */
+//     min-height: 100%;
+//     min-width: 1024px;
+      
+//     /* Set up proportionate scaling */
+//     width: 100%;
+//     height: auto;
+      
+//     /* Set up positioning */
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+
+//     opacity:0.7;
+//     filter:alpha(opacity=40); /* For IE8 and earlier */
+//   }
+  
+//   @media screen and (max-width: 1024px) { /* Specific to this particular image */
+//     img.bg {
+//       left: 50%;
+//       margin-left: -512px;   /* 50% */
+//     }
+//   }
+  
+
+  .mainpage{
+      // background: url('/Image/light-gray-background-soft-fifteen-shades-of-grey-smooth-background-with-the-addition-of-a-bit-of-noise_be-2qbqqkl_thumbnail-full01.png')no-repeat center center ;
+      // min-height: 100%;
+      // min-width: 1024px;
+        
+      // /* Set up proportionate scaling */
+      // width: 100%;
+      // height: auto;
+        
+      // /* Set up positioning */
+      // // position: fixed;
+      // top: 0;
+      // left: 0;
+      
+
+      background: yellowgreen;
+        }
+
+  // @media screen and (max-width: 1024px) { /* Specific to this particular image */
+  //   .mainpage {
+  //     left: 50%;
+  //     margin-left: -512px;   /* 50% */
+  //   }
+  // }
+
+  // .mainpage-permission {  
+    // background : url('/Image/bird-bees.gif') no-repeat center center ;  
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    // }  
+  
+  // .wrappermainpage-permission {      
+  //   // margin: 50px; //
+  //   margin:50px auto 0;
+  //   font-size: 20px;
+  //   // text-align: center;
+  //   // width: 1250px; //
+  //   // height: 550px;
+  //   width: 85%;
+  //   height: auto;//
+  //   border-radius: $radius;
+  // //   background: transparent;
+  //   box-shadow: 0 15px 35px rgba(31, 31, 97, 0.493), 0 5px 15px rgba(0, 0, 0, 0.514);
+  //   // padding: $padding;
+  //   background-color: white;
+  //   opacity:0.7;
+  // //     filter:alpha(opacity=40);
+  // //   background: yellow;
+  // //   color: white;
+  //   // min-height: 100%;//
+  //   // min-width: 1024px;//
+  //   top: 0px;//
+  //   // bottom: 0px;//
+  //   // right: 0px;//
+  //   left: 0px;//
+  //   display: block;
+  //   position: relative;//
+
+  //   border-width: 20px  ;
+  //   border-style: double;
+  //   border-color: darkCyan;
+  //    background-color:mediumAquamarine;
+  //   }  
+  
+  body{
+    user-select: none;
+    color: rgb(49, 66, 53);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+    // background: rgb(255, 255, 255);
+    // background: -moz-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    // background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(150, 150, 150, 1)), color-stop(100%, rgba(89, 89, 89, 1)));
+    // background: -webkit-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    // background: -o-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    // background: -ms-radial-gradient(center, ellipse cover, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    // background: radial-gradient(ellipse at center, rgba(150, 150, 150, 1) 0%, rgba(89, 89, 89, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#969696', endColorstr = '#595959', GradientType = 1);
+    // background-image: radial-gradient(rgba(92,100,111,0.5) 0%,rgba(31,35,40,1) 100%);
+    // background-image: radial-gradient(rgba(114, 201, 173, 0.74) 0%,rgb(180, 235, 205) 100%);//additional
+    background: yellowgreen !important;
+    // background: honeydew
+  }
+
+
+// .Collapsible{
+//   text-align: left;
+//   width: auto;
+//   background-color: beige;
+//   // margin:  20px;
+//   border-radius: 10px;
+//   border-style: solid;
+//   padding:20px;
+//   border: 4px solid burlywood;
+  
+// }
+
+// .Collapsible__contentOuter{
+//   background-color: beige;
+// }
+
+// .Collapsible__contentInner{
+//   background-color: beige;
+// }
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+	/*  UPDATED! flip the pane when hovered */
+	.flip-container:hover .back {
+		transform: rotateY(0deg);
+	}
+	.flip-container:hover .front {
+	    transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*  UPDATED! front pane, placed above back */
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(-180deg);
+}
+
+/* 
+	Some vertical flip updates 
+*/
+.vertical.flip-container {
+	position: relative;
+}
+
+	.vertical .back {
+		transform: rotateX(180deg);
+	}
+
+	.vertical.flip-container:hover .back {
+	    transform: rotateX(0deg);
+	}
+
+	.vertical.flip-container:hover .front {
+	    transform: rotateX(180deg);
+  }
+  
+
+  // .table {
+  //   width: 100%;
+  //   display: table;
+  //   border-collapse: collapse;
+  // }
+  // .table .tr {
+  //   display: table-row;
+  // }
+  // .table .td {
+  //   display: table-cell;
+  //   vertical-align: middle;
+  //   text-align: left;
+  // }

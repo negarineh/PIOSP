@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDeletePrompt component render() should render the component 1`] = `
+<div
+  className="mainpage"
+>
+  <div
+    className="wrappermainpage"
+  >
+    <div
+      className="wrapperpage2"
+    >
+      <div
+        style={
+          Object {
+            "color": "dimgray",
+            "margin": "auto",
+            "width": "auto",
+          }
+        }
+      >
+        <StepGroup
+          ordered={true}
+          size="mini"
+        >
+          <Step
+            active={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Enrolling
+              </StepTitle>
+              <StepDescription>
+                Insert your email 
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Confirmed Email 
+              </StepTitle>
+              <StepDescription>
+                Welcome to our Survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Questions
+              </StepTitle>
+              <StepDescription>
+                Please answer questions
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Rating and Further Experiences
+              </StepTitle>
+              <StepDescription>
+                Please rate our survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Submitted
+              </StepTitle>
+              <StepDescription>
+                Thanks for your participation
+              </StepDescription>
+            </StepContent>
+          </Step>
+        </StepGroup>
+      </div>
+      <Segment>
+        <form
+          onSubmit={[Function]}
+        >
+          <table>
+            <p
+              className="ppage2"
+            >
+               Please insert your name and email address(Name just used as alias)
+            </p>
+            <div
+              className="form-group-p2"
+            >
+              <Icon
+                as="i"
+                name="user"
+                style={
+                  Object {
+                    "color": "black",
+                  }
+                }
+              />
+              <input
+                className="form-control-2"
+                name="username"
+                placeholder="Name"
+                required={true}
+                type="username"
+              />
+            </div>
+            <div
+              className="form-group-p2"
+            >
+              <Icon
+                as="i"
+                name="mail"
+                style={
+                  Object {
+                    "color": "black",
+                  }
+                }
+              />
+              <input
+                className="form-control-2"
+                name="email"
+                placeholder="Email"
+                required={true}
+                type="email"
+              />
+            </div>
+            <div
+              className="form-group-pag2"
+            >
+              <label
+                className="labelpage1"
+                style={
+                  Object {
+                    "fontFamily": "sans-serif",
+                    "fontSize": "15px",
+                  }
+                }
+              >
+                <input
+                  className="form-control-12"
+                  name="checkbox1"
+                  required={true}
+                  type="checkbox"
+                />
+                I agree to the
+                <Modal
+                  actions={
+                    Array [
+                      Object {
+                        "content": "Agree",
+                        "key": "done",
+                        "positive": true,
+                      },
+                    ]
+                  }
+                  closeOnDimmerClick={true}
+                  closeOnDocumentClick={false}
+                  content={
+                    <p
+                      style={
+                        Object {
+                          "padding": "15px",
+                          "textAlign": "justify",
+                        }
+                      }
+                    >
+                      Thank you for interest in participating in this survey. This survey is run by the University of New England ...
+                      <br />
+                      In this survey you will be shown a series of images of insect pollinators, and will be asked to identify the type of insect shown in each by selecting multiple choice answers.  
+                    </p>
+                  }
+                  dimmer={true}
+                  eventPool="Modal"
+                  header="Pollinator Insect Online Survey"
+                  style={
+                    Object {
+                      "left": "50%",
+                      "position": "absolute",
+                      "textAlign": "justify",
+                      "top": "50%",
+                      "transform": "translate(-50%, -50%)",
+                    }
+                  }
+                  trigger={
+                    <a
+                      style={
+                        Object {
+                          "color": "blue",
+                          "fontFamily": "sans-serif",
+                          "fontSize": "15px",
+                        }
+                      }
+                    >
+                       
+                       
+                      Terms & Use
+                    </a>
+                  }
+                />
+                , including our Cookie use
+              </label>
+            </div>
+            <div
+              className="form-group-pag2"
+            >
+              <input
+                className="form-control-12"
+                name="checkbox2"
+                required={true}
+                type="checkbox"
+              />
+              <label
+                className="labelpage1"
+                style={
+                  Object {
+                    "fontFamily": "sans-serif",
+                    "fontSize": "15px",
+                  }
+                }
+              >
+                I have not undertaken
+              </label>
+            </div>
+            <button
+              className="btn-primary21"
+              style={
+                Object {
+                  "fontFamily": "sans-serif",
+                  "fontSize": "15px",
+                  "paddingLeft": "40px",
+                }
+              }
+              type="submit"
+            >
+              Send Email
+            </button>
+          </table>
+        </form>
+      </Segment>
+    </div>
+  </div>
+</div>
+`;

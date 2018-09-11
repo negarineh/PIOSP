@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDeletePrompt component render() should render the component 1`] = `
+<div
+  className="mainpage"
+>
+  <MuiThemeProvider>
+    <div
+      className="wrappermainpage"
+    >
+      <div
+        style={
+          Object {
+            "color": "dimgray",
+            "margin": "auto",
+            "overflow": "auto",
+            "paddingLeft": "10px",
+            "width": "auto",
+          }
+        }
+      >
+        <StepGroup
+          ordered={true}
+          size="mini"
+        >
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Enrolling
+              </StepTitle>
+              <StepDescription>
+                Insert your email 
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Confirmed Email 
+              </StepTitle>
+              <StepDescription>
+                Welcome to our Survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Questions
+              </StepTitle>
+              <StepDescription>
+                Please answer questions
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Rating and Further Experiences
+              </StepTitle>
+              <StepDescription>
+                Please rate our survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            active={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Submitted
+              </StepTitle>
+              <StepDescription>
+                Thanks for your participation
+              </StepDescription>
+            </StepContent>
+          </Step>
+        </StepGroup>
+      </div>
+      <Segment
+        style={
+          Object {
+            "margin": "10px",
+            "overflow": "auto",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          <p
+            className="psurvey21"
+            key="a"
+          >
+            Thank for your participation
+          </p>
+          <button
+            className="btn btn-primary2100"
+            type="submit"
+          >
+            <Link
+              replace={false}
+              to="/mainpage"
+            >
+              Survey Home Page
+            </Link>
+          </button>
+        </div>
+      </Segment>
+    </div>
+  </MuiThemeProvider>
+</div>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Survey Results Page component render() should render the component 1`] = `
+<Connect(SurveyResultsPage)
+  handleChange={[Function]}
+  handleItemClick={[Function]}
+/>
+`;

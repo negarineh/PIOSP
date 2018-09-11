@@ -1,0 +1,187 @@
+// $primary-light: #CB192C;
+// $primary-dark: #af1728;
+
+// // fonts
+// @import url('https://fonts.googleapis.com/css?family=Roboto');
+// $kuler-font: 'Montserrat', sans-serif;
+
+
+// body {
+//   width: 100vw;
+//     min-height: 100vh;
+//     background: #ffffff;
+//     -webkit-animation: eMLfYp 1s ease-out;
+//     animation: eMLfYp 1s ease-out;
+//     display: flex;
+//     -ms-flex-pack: center;
+//     justify-content: center;
+//     -webkit-align-items: center;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     align-items: center;
+// }
+
+// // #app {
+// //   display: flex;
+// //   justify-content: center;
+// //   padding:0px;
+// //   margin: 0px;
+// // }
+
+// $_gutter-base: 24px;
+// $_gutter-phone: 16px;
+
+// @mixin _grid-style {
+//   display: inline-block;
+//   min-height: 2px;
+//   float: left;
+// }
+
+// @mixin _grid-base ($i, $gutter: $_gutter-base, $gutter-m: $_gutter-phone) {
+//   $shadow-width: percentage($i/12);
+//   $gutter-margin: $gutter / 2;
+//   @include _grid-style;
+//   @include screen(phone) {
+//     $margin-g: $gutter-m / 2;
+//     width: calc(100% - #{$gutter-m});
+//     margin: 0 $margin-g;
+//   }
+//   @include screen(desktop) {
+//     width: calc(#{$shadow-width} - #{$gutter});
+//     margin: 0 $gutter-margin;
+//   }
+//   @include screen(tablet) {
+//     width: calc(100% - #{$gutter});
+//     margin: 0 $gutter-margin;
+//   }
+// }
+
+// @function row-width($break, $offset, $gutter) {
+//   @return $break - 2 * $offset + $gutter;
+// }
+
+// @function row-width-mobile($offset, $gutter) {
+//   $space: (2 * $offset - $gutter);
+//   @return calc(100% - #{$space});
+// }
+
+// @mixin is-tablet-col($i) {
+//   @include screen(tablet) {
+//     width: calc(#{percentage($i/12)} - #{$_gutter-base});
+//   }
+// }
+
+// @mixin is-mobile-col($i) {
+//   @include screen(phone) {
+//     width: calc(#{percentage($i/12)} - #{$_gutter-phone});
+//   }
+//   @include is-tablet-col($i);
+// }
+
+// // grid render mixin
+
+// @mixin grid-col($i, $gutter: $_gutter-base, $gutter-m: $_gutter-phone) {
+//   @include _grid-base($i, $gutter, $gutter-m);
+//   $offset: 13 - $i;
+
+//   @for $j from 1 to $offset {
+//     &.is-offset-#{$j} { // Deprecated use grid-offset sub module
+//       $shadow-width: percentage($j/12);
+//       @include screen (desktop) {
+//         margin-left: calc(#{$shadow-width} + #{$gutter}/2);
+//       }
+//     }
+//   }
+
+//   @for $j from 1 to $offset {
+//     &.grid-offset-#{$j} {
+//       $shadow-width: percentage($j/12);
+//       @include screen (desktop) {
+//         margin-left: calc(#{$shadow-width} + #{$gutter}/2);
+//       }
+//     }
+//   }
+
+//   @for $j from 1 to 12 {
+//     &.is-mobile-#{$j} { // Deprecated use grid-mobile sub module
+//       @include is-mobile-col($j);
+//     }
+//   }
+
+//   @for $j from 1 to 12 {
+//     &.grid-mobile-#{$j} {
+//       @include is-mobile-col($j);
+//     }
+//   }
+
+//   @for $j from 1 to 12 {
+//     &.grid-tablet-#{$j} {
+//       @include is-tablet-col($j);
+//     }
+//   }
+// }
+
+// @mixin grid-col-mobile($i, $j) { // Deprecated use grid-mobile sub module
+//   .grid-col-#{$i}--mobile-#{$j}  {
+//     @include _grid-base($i);
+//     @include is-mobile-col($j);
+//   }
+// }
+
+// @mixin grid {
+//   $st: $standard-screen;
+//   $wide: $wide-screen;
+//   $min-width: 320px;
+//   $offset-wide: 40px;
+//   $offset-base: 32px;
+//   $offset-tablet: 24px;
+//   $offset-phone: 16px;
+//   $min-row-width: ($min-width - $_gutter-phone * 2);
+//   @for $i from 1 to 13 {
+//     .grid-col-#{$i} {
+//       @include grid-col($i, $_gutter-base);
+//     }
+//   }
+
+//   .grid-row {
+//     @include clearfix;
+//     @include screen(wide) {
+//       width: row-width($wide, $offset-wide, + $_gutter-base);
+//     }
+//     @include screen(tablet) {
+//       width: row-width-mobile($offset-tablet, $_gutter-base);
+//     }
+//     @include screen(phone) {
+//       width: row-width-mobile($offset-phone, $_gutter-phone);
+//     }
+//     display: block;
+//     width: row-width($st, $offset-base, $_gutter-base);
+//     min-width: $min-row-width;
+//     margin: 0 auto;
+//   }
+// }
+
+// // child grid
+// @mixin child-row($gutter: $_gutter-base, $gutter-m: $_gutter-phone) {
+//   $gutter-margin: $gutter / 2;
+//   @include clearfix;
+//   @include screen(mobile) {
+//     margin: 0 (0 - $gutter-m / 2);
+//   }
+//   margin: 0 (0 - $gutter-margin);
+// }
+
+// @mixin child-col-6 {
+//   @include grid-col(6);
+// }
+
+// // child grid render mixin
+// @mixin child-grid {
+//   .child-row {
+//     @include child-row;
+//   }
+
+//   .child-col-6 {
+//     @include child-col-6;
+//   }
+// }

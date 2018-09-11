@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Submit component render() should render the component 1`] = `
+<div
+  className="mainpage"
+>
+  <MuiThemeProvider>
+    <div
+      className="wrappermainpage"
+    >
+      <div
+        style={
+          Object {
+            "color": "dimgray",
+            "margin": "auto",
+            "overflow": "auto",
+            "paddingLeft": "10px",
+            "width": "auto",
+          }
+        }
+      >
+        <StepGroup
+          ordered={true}
+          size="mini"
+        >
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Enrolling
+              </StepTitle>
+              <StepDescription>
+                Insert your email 
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Confirmed Email 
+              </StepTitle>
+              <StepDescription>
+                Welcome to our Survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Questions
+              </StepTitle>
+              <StepDescription>
+                Please answer questions
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            active={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Rating and Further Experiences
+              </StepTitle>
+              <StepDescription>
+                Please rate our survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Submitted
+              </StepTitle>
+              <StepDescription>
+                Thanks for your participation
+              </StepDescription>
+            </StepContent>
+          </Step>
+        </StepGroup>
+      </div>
+      <Segment
+        style={
+          Object {
+            "margin": "10px",
+          }
+        }
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <p
+            className="psubmit"
+            key="a"
+          >
+            Please rate your insect identification experience, where 1 is have no experience and 5 is highly experienced :
+          </p>
+          <div
+            className="questionsubmit"
+            key="b"
+          >
+            <div
+              className="react-container"
+            >
+              <div
+                className="star-rating"
+              >
+                <Star
+                  key="0"
+                  name="experience"
+                  onClick={[Function]}
+                  selected={false}
+                  style={
+                    Object {
+                      "display": "inline",
+                      "margin": "20px",
+                    }
+                  }
+                  value={0}
+                />
+                <Star
+                  key="1"
+                  name="experience"
+                  onClick={[Function]}
+                  selected={false}
+                  style={
+                    Object {
+                      "display": "inline",
+                      "margin": "20px",
+                    }
+                  }
+                  value={0}
+                />
+                <Star
+                  key="2"
+                  name="experience"
+                  onClick={[Function]}
+                  selected={false}
+                  style={
+                    Object {
+                      "display": "inline",
+                      "margin": "20px",
+                    }
+                  }
+                  value={0}
+                />
+                <Star
+                  key="3"
+                  name="experience"
+                  onClick={[Function]}
+                  selected={false}
+                  style={
+                    Object {
+                      "display": "inline",
+                      "margin": "20px",
+                    }
+                  }
+                  value={0}
+                />
+                <Star
+                  key="4"
+                  name="experience"
+                  onClick={[Function]}
+                  selected={false}
+                  style={
+                    Object {
+                      "display": "inline",
+                      "margin": "20px",
+                    }
+                  }
+                  value={0}
+                />
+              </div>
+            </div>
+          </div>
+          <p
+            className="psubmit"
+          >
+             Have you ever participated in a citizen science project?
+          </p>
+          <div
+            className="form-group-sub"
+          >
+            <div
+              className="form-group-submit"
+            >
+              <label
+                className="labelpage1"
+              >
+                <input
+                  className="form-control-submit"
+                  name="participation"
+                  required={true}
+                  type="radio"
+                  value="Yes"
+                />
+                Yes
+              </label>
+            </div>
+            <div
+              className="form-group-submit"
+            >
+              <label
+                className="labelpage1"
+              >
+                <input
+                  className="form-control-submit"
+                  name="participation"
+                  required={true}
+                  type="radio"
+                  value="No"
+                />
+                No
+              </label>
+            </div>
+          </div>
+          <p
+            className="psubmit"
+            key="d"
+          >
+             Please give us brief description of type of project:
+          </p>
+          <textarea
+            className="form-control-description"
+            name="description"
+            type="input"
+          />
+          <button
+            className="btn btn-primary2"
+            type="submit"
+          >
+            <Link
+              replace={false}
+              to="/finish"
+            >
+              Submit
+            </Link>
+          </button>
+        </form>
+      </Segment>
+    </div>
+  </MuiThemeProvider>
+</div>
+`;

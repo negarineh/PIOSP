@@ -1,0 +1,159 @@
+.form-control {
+  margin-bottom: 5px;
+  margin-right: 5px; }
+
+.btn-primary2s {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: white;
+  background-image: linear-gradient(#38cf38, #21ca0a);
+  border: none;
+  z-index: 1;
+  border-radius: 5px; }
+  .btn-primary2s:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(#0a830a, #21ca0a);
+    transition: width 250ms;
+    z-index: -1;
+    border-radius: 5px; }
+  .btn-primary2s:hover {
+    color: white;
+    border-radius: 5px; }
+    .btn-primary2s:hover:before {
+      width: 100%; }
+
+.labelpage1 {
+  color: #463831;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.psurvey1 {
+  float: left;
+  align-items: left;
+  height: 10%;
+  color: #463831;
+  padding-bottom: 5px;
+  padding-right: 30%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.psurvey2 {
+  float: left;
+  height: 10%;
+  width: 80%;
+  color: #463831;
+  padding-bottom: 5pX;
+  padding-top: 10px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.psurvey21 {
+  height: 10%;
+  width: 100%;
+  color: #463831;
+  padding-bottom: 5pX;
+  padding-top: 10px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center; }
+
+.fieldsetsurvey {
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; }
+
+.legendsurvey {
+  font-family: sans-serif;
+  font-size: 15px; }
+
+.imgsurvey {
+  width: 480px;
+  height: 430px;
+  clear: none;
+  border-style: double;
+  border-color: #485f19;
+  border-radius: 10px; }
+
+.question {
+  float: left;
+  width: 50%;
+  padding-left: 5%; }
+
+.form-control-description-s {
+  width: 420px;
+  height: 80px;
+  font-family: "fantasy";
+  font-size: 20px;
+  border-radius: 10px;
+  resize: none; }
+
+.surveygroup1 {
+  float: left;
+  width: 50%; }
+
+.form-group-description {
+  float: left; }
+
+.wrapperWelcome {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center; }
+
+.pwelcome {
+  align-items: center;
+  color: #463831;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  position: relative; }
+
+.btn-primary2100 {
+  position: relative;
+  margin-left: 10px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: "fantasy";
+  font-weight: 400;
+  color: white;
+  background-image: linear-gradient(#20d31a, #8ac208);
+  border: none;
+  z-index: 1;
+  border-radius: 5px; }
+  .btn-primary2100:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(#0a830a, #21ca0a);
+    transition: width 250ms;
+    z-index: -1;
+    border-radius: 5px; }
+  .btn-primary2100:hover {
+    color: white;
+    border-radius: 5px; }
+    .btn-primary2100:hover:before {
+      width: 100%; }

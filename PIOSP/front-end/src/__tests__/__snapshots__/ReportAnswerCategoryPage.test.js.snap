@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Report Answer Category Page component render() should render the component 1`] = `
+<div
+  className="App"
+>
+  <Segment
+    style={
+      Object {
+        "height": "638.5px",
+      }
+    }
+  >
+    <SelectedAnswers
+      answers={Array []}
+      onAnswerClick={[Function]}
+    />
+    <AnswerCategorySearch
+      answers={Object {}}
+      handleSearchCancel={[Function]}
+      handleSearchChange={[Function]}
+      isLoading={false}
+      onAnswerClick={[Function]}
+      showRemoveIcon={false}
+    />
+  </Segment>
+</div>
+`;

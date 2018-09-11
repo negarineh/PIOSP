@@ -1,0 +1,122 @@
+// // Variables
+// $color-bg: white;
+// $color-main: rgb(51, 51, 51);
+// $color-hover: lighten(#0275d8, 1%);
+// $padding: 20px;
+// $radius: 5px;
+
+// // Mixins
+// @mixin transition($prop: all, $duration: 0.3s, $timing: ease-in-out) {
+//   transition: $prop $duration $timing;
+// }
+
+// // html {
+// //   box-sizing: border-box;
+// // }
+// // *,
+// // *:after,
+// // *:before {
+// //   box-sizing: border-box;
+// // }
+// // body {
+// //   font-family: "Roboto", sans-serif;
+// //   background: url("http://www.foodinsight.org/sites/default/files/styles/main_image_for_details/public/pollinator%20header_0.jpg?itok=vYyMGp1a") no-repeat center ;/*/ cover*/
+// //   display: flex;
+// //   align-items: center;
+// //   justify-content: center;
+// //   position: absolute;
+// //   height: 100%;
+// //   width: 100%;
+// //   background-color: #dfcfad ;
+// //   border-radius: $radius;
+// // }
+// // #root {
+// //   background: url("http://www.foodinsight.org/sites/default/files/styles/main_image_for_details/public/pollinator%20header_0.jpg?itok=vYyMGp1a") no-repeat center ;/*/ cover*/
+// //   display: flex;
+// //   align-items: center;
+// //   justify-content: center;
+// //   position: absolute;
+// //   height: 100%;
+// //   width: 100%;
+// //   background-color: #dfcfad ;
+// //   border-radius: $radius;
+// // }
+// .react-form {
+//   width: 300px;
+//   border-radius: $radius;
+//   background: transparent;
+//   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+//   padding: $padding;
+//   text-align: center;
+// }
+// h1 {
+//   color: $color-main;
+//   font-size: 24px;
+//   margin-top: 0;
+//   text-align: center;
+// }
+
+// input {
+//   border: none;
+//   border-bottom: 1px solid $color-main;
+//   background: none;
+//   width: 100%;
+//   font-size: 18px;
+//   font-weight: bold;
+//   line-height: 1.2;
+//   outline: none;
+//   text-align: center;
+//   border-radius: $radius;
+// }
+// // .btn:hover {
+// //   background: $color-hover;
+// //   border-color: $color-hover;
+// // }
+
+// .wrapper {
+//   margin: 50px;
+//   font-size: 20px;
+//   text-align: center;
+//   width: 300px;
+//   border-radius: $radius;
+//   background: transparent;
+//   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+//   padding: $padding;
+//   }
+
+//   button{
+// 			position: relative;
+// 			display: block;
+// 			margin: 30px auto 0;
+// 			padding: 10px 30px;
+// 			font-size: 16px;
+// 			font-weight: 400;
+// 			color: white;
+// 			background-color: rgb(156, 124, 76);
+// 			border: none;
+// 			z-index: 1;
+// 			border-radius: $radius;
+// 			&:before {
+// 				position: absolute;
+// 				content: '';
+// 				top: 0;
+// 				left: 0;
+// 				width: 0;
+// 				height: 100%;
+// 				background-color: #e74c3c;
+// 				transition: width 250ms;
+// 				z-index: -1;
+// 			}
+			
+// 			&:hover {
+// 				color: white;
+				
+// 				&:before {
+// 					width: 100%;
+// 				}
+// 			}
+//   }
+
+// .label{
+//   font-style: italic  ,sans-serif;
+// }

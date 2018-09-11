@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Survey component render() should render the component 1`] = `
+<div
+  className="mainpage"
+>
+  <MuiThemeProvider>
+    <div
+      className="wrappermainpage"
+    >
+      <div
+        style={
+          Object {
+            "color": "dimgray",
+            "margin": "auto",
+            "overflow": "auto",
+            "paddingLeft": "10px",
+            "width": "auto",
+          }
+        }
+      >
+        <StepGroup
+          ordered={true}
+          size="mini"
+        >
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Enrolling
+              </StepTitle>
+              <StepDescription>
+                Insert your email 
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            completed={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Confirmed Email 
+              </StepTitle>
+              <StepDescription>
+                Welcome to our Survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            active={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Questions
+              </StepTitle>
+              <StepDescription>
+                Please answer questions
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Rating and Further Experiences
+              </StepTitle>
+              <StepDescription>
+                Please rate our survey
+              </StepDescription>
+            </StepContent>
+          </Step>
+          <Step
+            disabled={true}
+          >
+            <StepContent>
+              <StepTitle>
+                Survey Submitted
+              </StepTitle>
+              <StepDescription>
+                Thanks for your participation
+              </StepDescription>
+            </StepContent>
+          </Step>
+        </StepGroup>
+      </div>
+      <Segment
+        style={
+          Object {
+            "margin": "10px",
+            "overflow": "auto",
+          }
+        }
+      >
+        <Label
+          as="a"
+          image={true}
+        >
+          <img
+            alt=""
+            src="/undefined"
+          />
+          Image 
+          1
+           of 15
+        </Label>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="surveygroup1"
+          >
+            <p
+              className="psurvey1"
+              key="a"
+            >
+               The insect in the image is:(You can select one only)
+            </p>
+            <div
+              className="question"
+              key="b"
+            >
+              <div
+                className="form-group"
+              >
+                <label
+                  className="labelpage1"
+                >
+                  <input
+                    className="form-control"
+                    name="AppSource"
+                    required={true}
+                    type="radio"
+                    value="Bee"
+                  />
+                  Bee
+                </label>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="labelpage1"
+                >
+                  <input
+                    className="form-control"
+                    name="AppSource"
+                    required={true}
+                    type="radio"
+                    value="Beetle"
+                  />
+                  Beetle
+                </label>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="labelpage1"
+                >
+                  <input
+                    className="form-control"
+                    name="AppSource"
+                    required={true}
+                    type="radio"
+                    value="Fly"
+                  />
+                  Fly
+                </label>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="labelpage1"
+                >
+                  <input
+                    className="form-control"
+                    name="AppSource"
+                    required={true}
+                    type="radio"
+                    value="Moth/Butterfly"
+                  />
+                  Moth/Butterfly
+                </label>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="labelpage1"
+                >
+                  <input
+                    className="form-control"
+                    name="AppSource"
+                    required={true}
+                    type="radio"
+                    value="Wasp"
+                  />
+                  Wasp
+                </label>
+              </div>
+              <div
+                className="form-group"
+              >
+                <label
+                  className="labelpage1"
+                >
+                  <input
+                    className="form-control"
+                    name="AppSource"
+                    required={true}
+                    type="radio"
+                    value="Don't know"
+                  />
+                  I don't know
+                </label>
+              </div>
+            </div>
+            <p
+              className="psurvey2"
+              key="d"
+            >
+               (Optional) If you can further identify this insect, please do so in the box below(e.g.Group, genus, species, common name):
+            </p>
+            <div
+              className="form-group-description"
+              key="e"
+            >
+              <textarea
+                className="form-control-description-s"
+                name="description"
+                type="input"
+              />
+            </div>
+            <Button
+              as="button"
+              className="btn-primary2s"
+              content="Save and Next"
+              icon="right arrow"
+              labelPosition="right"
+              style={
+                Object {
+                  "backgroundImage": "linear-gradient(#20d31a, #8ac208)",
+                  "color": "white",
+                  "fontFamily": "sans-serif",
+                  "fontSize": "15px",
+                  "fontWeight": "100",
+                  "height": "50px",
+                  "marginTop": "15px",
+                  "paddingTop": "5px",
+                  "textShadow": "0 -1px 0 #7c7a17",
+                  "width": "200px",
+                }
+              }
+            />
+          </div>
+          <div
+            className="photossurvey"
+            key="c"
+          >
+            <img
+              alt=" "
+              className="imgsurvey"
+              name="photo"
+              src="/undefined"
+            />
+          </div>
+        </form>
+      </Segment>
+    </div>
+  </MuiThemeProvider>
+</div>
+`;

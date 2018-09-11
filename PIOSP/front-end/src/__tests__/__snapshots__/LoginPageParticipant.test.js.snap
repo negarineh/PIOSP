@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page Participant component render() should render the component 1`] = `
+<Connect(LoginPageParticipant)
+  dispatch={[Function]}
+/>
+`;
