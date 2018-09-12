@@ -24,9 +24,9 @@
     "cors": "^2.8.4",
     "date-format": "^1.2.0",
     "dateformat": "^3.0.2",
-    "debug": "~2.2.0",
+    "debug": "~2.6.9",
     "domino": "^2.0.0",
-    "ejs": "~2.3.3",
+    "ejs": "~2.5.5",
     "express": "~4.13.1",
     "express-handlebars": "^3.0.0",
     "express-mailer": "^0.3.0",
@@ -67,7 +67,7 @@
     "simple-encryptor": "latest",
     "underscore": "latest",
     "url": "^0.11.0",
-    "url-parse": "^1.2.0"
+    "url-parse": "^1.4.3"
   },
   "scripts": {
     "build": "babel src -d lib",
